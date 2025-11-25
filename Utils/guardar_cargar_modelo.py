@@ -8,8 +8,6 @@ def guardar_modelo(modelo, ruta_archivo="modelo_entrenado.pkl"):
         "conv1_sesgos": modelo.conv1.sesgos,
         "conv2_filtros": modelo.conv2.filtros,
         "conv2_sesgos": modelo.conv2.sesgos,
-        "conv3_filtros": modelo.conv3.filtros,
-        "conv3_sesgos": modelo.conv3.sesgos,
         "fc1_pesos": modelo.fc1.pesos,
         "fc1_sesgos": modelo.fc1.sesgos,
         "fc2_pesos": modelo.fc2.pesos,
